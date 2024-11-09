@@ -1,8 +1,8 @@
 package StepDefinition;
 
-public class UAT {
+public class sample {
 
-	public void sample() {
+	public void test() {
 		System.out.println("hello");
 	}
 }
