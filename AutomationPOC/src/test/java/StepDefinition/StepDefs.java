@@ -17,12 +17,13 @@ public class StepDefs {
 
 	    @Given("user opens the browser")
 	    public void userOpensTheBrowser() {
-	    	
+	    	System.out.println("Browser Launch");
 	    }
 
 	    @When("user navigates to {string}")
 	    public void userNavigatesToURL(String url) {
 	        driver.get(url);
+	        System.out.println("URL Launch");
 	    }
 
 	    @Then("the page title should contain {string}")
