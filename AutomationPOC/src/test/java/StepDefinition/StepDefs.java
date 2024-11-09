@@ -24,6 +24,7 @@ public class StepDefs {
 	    public void userNavigatesToURL(String url) {
 	        driver.get(url);
 	        System.out.println("URL Launch");
+	  
 	    }
 
 	    @Then("the page title should contain {string}")
