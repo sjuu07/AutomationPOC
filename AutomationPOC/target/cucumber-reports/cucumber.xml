@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="3.597">
+    <testcase classname="Navigate to a URL" name="Navigate to Google homepage" time="0.962">
+        <system-out><![CDATA[Given user opens the browser................................................passed
+When user navigates to "https://www.google.com".............................passed
+Then the page title should contain "Google".................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
