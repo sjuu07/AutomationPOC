@@ -24,7 +24,7 @@ public class StepDefs {
 	    public void userNavigatesToURL(String url) {
 	        driver.get(url);
 	        System.out.println("URL Launch");
-	        System.out.println("New Branch Add");
+	        System.out.println("New Branch Add Demo");
 	    }
 
 	    @Then("the page title should contain {string}")
